@@ -1,0 +1,21 @@
+name: credit_risk_analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas>=1.3.0
+  - numpy>=1.21.0
+  - scikit-learn>=0.24.0
+  - matplotlib>=3.4.0
+  - seaborn>=0.11.0
+  - jupyter>=1.0.0
+  - notebook
+  - pip
+  - pip:
+    - imbalanced-learn>=0.8.0
+    - xgboost>=1.4.0
+    - lightgbm>=3.2.0
+    - plotly>=5.0.0
+    - openpyxl>=3.0.0
+    - pytest>=6.2.0
